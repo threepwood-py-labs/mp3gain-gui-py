@@ -136,7 +136,9 @@ def build_command(
     report_path = build_root / "reports" / f"{config.output_name}-{config.mode}.xml"
 
     if not package_root.is_dir():
-        raise ValueError(f"Configured app_package directory does not exist: {package_root}")
+        raise ValueError(
+            f"Configured app_package directory does not exist: {package_root}"
+        )
     if not (package_root / "__main__.py").is_file():
         main_module_path = package_root / "__main__.py"
         raise ValueError(
@@ -167,9 +169,7 @@ def build_command(
     ]
 
     if config.include_qt_plugins:
-        command.append(
-            f"--include-qt-plugins={','.join(config.include_qt_plugins)}"
-        )
+        command.append(f"--include-qt-plugins={','.join(config.include_qt_plugins)}")
 
     environment = os.environ.copy()
     src_path = repo_root / "src"

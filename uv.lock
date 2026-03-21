@@ -67,20 +67,13 @@ dependencies = [
     { name = "threep-commons" },
 ]
 
-[package.optional-dependencies]
-fast = [
-    { name = "numpy" },
-]
-
 [package.metadata]
 requires-dist = [
     { name = "miniaudio", specifier = ">=1.60" },
     { name = "mutagen", specifier = ">=1.47" },
-    { name = "numpy", marker = "extra == 'fast'", specifier = ">=1.26" },
     { name = "pyside6", specifier = ">=6.10.2" },
-    { name = "threep-commons", git = "https://github.com/Threepwood-7/threep-commons?rev=v0.3.0" },
+    { name = "threep-commons", git = "https://github.com/Threepwood-7/threep-commons?rev=v0.3.1" },
 ]
-provides-extras = ["fast"]
 
 [[package]]
 name = "mutagen"
@@ -212,8 +205,8 @@ wheels = [
 
 [[package]]
 name = "threep-commons"
-version = "0.3.0"
-source = { git = "https://github.com/Threepwood-7/threep-commons?rev=v0.3.0#8b44b52332bf4caeb064b4e8a6c0d73014eeefab" }
+version = "0.3.1"
+source = { git = "https://github.com/Threepwood-7/threep-commons?rev=v0.3.1#4cd5db771b70ea06d43b3b4db68d15d462b6880d" }
 dependencies = [
     { name = "pyside6" },
 ]

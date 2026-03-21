@@ -1,5 +1,5 @@
 # Changes here will be overwritten by Copier.
-_src_path: "_py_template"
+_src_path: "../_py_template"
 _commit: "v1.7.4"
 project_name: "mp3gain-gui-py"
 project_kind: "qt_app"

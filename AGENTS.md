@@ -13,7 +13,7 @@ Target feature parity: VB6 GUI v1.2.5.
 - **Package:** `mp3gain_gui_py`
 - **Python:** 3.13
 - **UI toolkit:** PySide6 ≥ 6.10.2
-- **Template:** aatemplate v1.7.2
+- **Template:** _py_template v1.7.2
 
 ---
 

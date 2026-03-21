@@ -1,6 +1,6 @@
 # Changes here will be overwritten by Copier.
 _src_path: "../_py_template"
-_commit: "v1.7.4"
+_commit: "v1.7.4-3-g8ae837d"
 project_name: "mp3gain-gui-py"
 project_kind: "qt_app"
 package_name: "mp3gain_gui_py"
@@ -16,3 +16,4 @@ runtime_dependencies:
   - "mutagen>=1.47"
 
   - "miniaudio>=1.60"
+

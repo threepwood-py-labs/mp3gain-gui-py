@@ -18,7 +18,7 @@ classifiers = [
 ]
 dependencies = [
 
-  "threep-commons @ git+https://github.com/Threepwood-7/threep-commons@v0.3.1",
+  "threep-commons @ git+https://github.com/threepwood-py-labs/threep-commons@v0.3.1",
 
 
   "PySide6>=6.10.2",
@@ -34,9 +34,9 @@ fast = ["numpy>=1.26"]
 parity = ["openpyxl>=3.1"]
 
 [project.urls]
-Homepage = "https://github.com/Threepwood-7/mp3gain-gui-py"
-Repository = "https://github.com/Threepwood-7/mp3gain-gui-py"
-Issues = "https://github.com/Threepwood-7/mp3gain-gui-py/issues"
+Homepage = "https://github.com/threepwood-py-labs/mp3gain-gui-py"
+Repository = "https://github.com/threepwood-py-labs/mp3gain-gui-py"
+Issues = "https://github.com/threepwood-py-labs/mp3gain-gui-py/issues"
 
 [tool.hatch.env]
 installer = "uv"

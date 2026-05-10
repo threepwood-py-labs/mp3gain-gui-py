@@ -1,13 +1,13 @@
 # Changes here will be overwritten by Copier.
 _src_path: "../_py_template"
-_commit: "v1.7.4-5-g20ebebe"
+_commit: "v1.7.4-7-g4bc5d2f"
 project_name: "mp3gain-gui-py"
 project_kind: "qt_app"
 package_name: "mp3gain_gui_py"
 description: "PySide6 port of MP3Gain GUI - ReplayGain analysis and gain adjustment"
 author_name: "MT0z"
 author_email: "mt0z1@pir0z.yxz"
-github_username: "Threepwood-7"
+github_username: "threepwood-py-labs"
 project_version: "0.1.0"
 runtime_dependencies:
 
